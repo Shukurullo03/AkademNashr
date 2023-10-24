@@ -4,6 +4,10 @@ body{
   font-family: "Roboto", "Arial", sans-serif;
   letter-spacing: 0.5px;
 }
+*:focus{
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
 .site-header{
   display: flex;
   justify-content: space-between;
@@ -200,6 +204,6 @@ display: flex;
 .site-foter-links:hover{
   color: #FF7500;
 }
-.site-foter-links:focus{
+.site-foter-links:active{
 opacity: 0.6;
 }
