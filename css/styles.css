@@ -10,6 +10,9 @@ body{
 }
 .site-header{
   display: flex;
+  border-top: 5px solid #FF7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -29,9 +32,12 @@ display: flex;
 align-items: center;
 }
 .sitenav-list{
+  padding: 0;
   display: flex;
 list-style: none;
-text-decoration: none;
+}
+.sitenav-list a{
+  text-decoration: none;
 }
 .sitenav-link{
   font-size: 13px;
@@ -50,9 +56,14 @@ text-decoration: none;
 .sitenav-link:active{
   opacity: 0.6s;
 }
-.main-link{
+.main-link {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+padding: 12px 24px;
 font-size: 13px;
 line-height: 15px;
+font-weight: bold;
 background-color: #FF7500;
 color: #fff;
 transition: opacity 0.4s ease;
@@ -64,6 +75,8 @@ opacity: 0.8;
   opacity: 0.6;
   }
 .hero{
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,6 +87,7 @@ color: #fff;
   width: 390px;
 }
 .orange-line{
+  border: none;
   width: 80px;
   height: 3px;
   background-color: #FF7500;
@@ -92,6 +106,7 @@ color: #fff;
 
 }
 .hero-img{
+  border-radius: 8px;
   width: 510px;
   height: 510px;
 }
@@ -102,17 +117,23 @@ color: #fff;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
   letter-spacing: 0.5px;
 }
-
+.feature{
+  padding-top: 210px;
+  padding-bottom: 210px;
+  width: 340px;
+}
 .feature-list{
+  padding: 0;
   width: 340px;
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
-.feature{
-  width: 340px;
-}
 .feature-icon-wrapper{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 340px;
 
 background-color:rgba(255, 117, 0, 0.2)
@@ -131,6 +152,9 @@ letter-spacing: 0.5px;
   letter-spacing: 0.5px;
 }
 .promo{
+  padding-top: 120px;
+  padding-bottom: 160px;
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,12 +182,15 @@ font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 color: #FF7500;
 }
 .promo-img{
+  border-radius: 12px;
   width: 440px;
   height: 440px;
   object-fit: cover;
 
 }
 .site-foter{
+  padding-top: 56px;
+  padding-bottom: 56px;
 background-color: aliceblue;
 }
 .site-foter-top{
@@ -172,9 +199,11 @@ background-color: aliceblue;
   align-items: center;
 }
 .site-foter ul{
+  padding: 0;
   list-style: none;
 }
 .site-foter-socials{
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -185,6 +214,7 @@ background-color: aliceblue;
 color: #FF7500;
 }
 .site-foter-divide{
+  border: 0;
 height: 2px;
   background-color: rgba(37, 36, 32, 0.50);;
 }
@@ -194,8 +224,11 @@ display: flex;
 .site-foter-links{
   width: 224px;
 }
-.site-foter-links{
+.site-foter-links a{
   text-decoration: none;
+}
+.site-foter-links{
+
   font-size: 16px;
   line-height: 19px;
   columns: #252420;
@@ -206,4 +239,8 @@ display: flex;
 }
 .site-foter-links:active{
 opacity: 0.6;
+}
+.color {
+ color: #FF7500;
+
 }
