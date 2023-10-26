@@ -21,6 +21,9 @@ body{
   transition: opacity 0.4 ease;
 
 }
+.logo-link img{
+  display: block;
+}
 .logo-link:hover{
 opacity: 0.8;
 }
