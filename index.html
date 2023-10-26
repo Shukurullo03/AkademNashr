@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <!-- Styles -->
+<link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 <style>
   header {
@@ -32,11 +33,11 @@ color: #fff;
       <!-- SITENAV -->
       <nav>
         <ul class="sitenav-list">
-           <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-           <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-           <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-           <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-           <li><a class="sitenav-link" href="#">Ro'yhatan o'tish</a></li>
+           <li class="sitenav-itms"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+           <li class="sitenav-itms"><a class="sitenav-link" href="#">Kitoblar</a></li>
+           <li class="sitenav-itms"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+           <li class="sitenav-itms"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+           <li class="sitenav-itms"><a class="sitenav-link" href="#">Ro'yhatan o'tish</a></li>
         </ul>
       </nav>
     </div>
@@ -68,14 +69,14 @@ color: #fff;
       <ul class="feature-list">
         <li class="feature">
           <div class="feature-icon-wrapper">
-            <img src="img/Rasm 1.svg" alt="" width="56" height="56">
+            <img src="img/feature-icon.svg" alt="" width="56" height="56">
           </div>
-          <h3 class="feature-title">Oson buyurtma qilish</h3>
+          <h2 class="feature-title">Oson buyurtma qilish</h2>
           <p class="">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
         </li >
         <li class="feature">
         <div class="feature-icon-wrapper">
-          <img src="img/Rasm2.svg" alt=" " width="56" height="56">
+          <img src="img/feature-icon (1).svg" alt=" " width="56" height="56">
         </div>
 
           <h3 class="feature-title">Eng sara kitoblar</h3>
@@ -84,7 +85,7 @@ color: #fff;
 
         <li class="feature">
           <div class="feature-icon-wrapper">
-            <img src="img/Rasm3.svg" alt=" " width="56" height="56">
+            <img src="img/feature-icon (2).svg" alt=" " width="56" height="56">
           </div>
             <h3 class="feature-title">Tez yetkazib beris
             </h3>
@@ -99,8 +100,10 @@ color: #fff;
       <div class="promo-content">
         <h4 class="promo-heading">Bolalar kitoblari uchun
           ajoyib aksiya!</h4>
-          <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-          <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highligh">50 ta kitob</strong>ni <strong class="promo-highligh">350 ming </strong>so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+          <div class="promo-info-wrapper">
+            <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+            <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highligh">50 ta kitob</strong>ni <strong class="promo-highligh">350 ming </strong>so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+          </div>
           <a class="main-link" href="#">Buyurtma berish</a>
         </div>
         <img class="promo-img" src="img/sale-img.jpg" alt="Aksiyadagi kitoblar rasmi" width="440" height="440" srcset="img/sale-img.jpg 1x,img/sale-img@2x.jpg 2x">
